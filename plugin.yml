@@ -1,0 +1,32 @@
+name: Gamemode
+main: gamemode\Main
+author: lejustin
+version: 0.3
+api: [3.0.0]
+commands:
+ gm1:
+  description: gehe in  Gamemode 1
+ permission: "gm1.cmd"
+ gm0:
+  description: gehe in Gamemode 0
+ permission: "gm0.cmd"
+ gm2:
+  description: gehe in Gamemode 2
+ permission: "gm2.cmd"
+ gm3:
+  description: gehe in Gamemode 3
+ permission: "gm3.cmd"
+
+permissions:
+ gm1.cmd:
+  default: false
+ gm0.cmd:
+  default: false
+ gm2.cmd:
+  default: false
+ gm3.cmd:
+  default: false
+
+
+
+
